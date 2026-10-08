@@ -1,0 +1,88 @@
+/* =========================================================
+   LIODEN CUSTOM CSS - MILITARY / TACTICAL THEME
+   ========================================================= */
+
+/* 1. MAIN BACKGROUND */
+body {
+    background: url("YOUR_IMAGE_URL_HERE") no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: #e0e2db !important;
+    font-family: 'Trebuchet MS', Arial, sans-serif !important;
+}
+
+/* 2. CONTAINER & CONTENT BOX TRANSPARENCY */
+.container.main,
+.topbar,
+.navbar,
+.panel,
+.table,
+.box {
+    background-color: rgba(38, 43, 34, 0.88) !important; /* Muted Tactical Green */
+    border-color: #555f4d !important;
+    color: #d1d5db !important;
+}
+
+/* Secondary Panels / Inner Content Boxes */
+.panel-default > .panel-heading,
+.table-striped > tbody > tr:nth-of-type(odd),
+.well {
+    background-color: rgba(58, 66, 52, 0.85) !important;
+    border-color: #6b7761 !important;
+    color: #f0f2eb !important;
+}
+
+/* 3. ACCENTS & HEADERS (Warm Tan / Leather Tone) */
+h1, h2, h3, h4, h5, h6, 
+.panel-title, 
+th {
+    color: #c29567 !important; /* Warm Tactical Brown Accent */
+    text-shadow: 1px 1px 2px #111 !important;
+}
+
+/* 4. LINKS & BUTTONS */
+a:link, a:visited {
+    color: #8da173 !important; /* Soft Sage Green */
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover, a:active {
+    color: #d9a875 !important;
+    text-decoration: none !important;
+}
+
+.btn-primary, .btn-success {
+    background-color: #4a5443 !important;
+    border-color: #626e58 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #c29567 !important;
+    border-color: #a3794f !important;
+    color: #111111 !important;
+}
+
+/* 5. NAVIGATION BAR & TOPBAR */
+.navbar-default {
+    background-color: rgba(28, 32, 25, 0.95) !important;
+    border-bottom: 2px solid #c29567 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #d1d5db !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #c29567 !important;
+}
+
+/* 6. CHAT BOX & CARD STYLING */
+#chatMessageTable, .chat_light, .chat_dark {
+    background-color: rgba(30, 34, 27, 0.9) !important;
+    color: #e0e2db !important;
+}
+
+/* Optional: Slight rounded corners for modern aesthetic */
+.panel, .table, .well, img.avatar {
+    border-radius: 6px !important;
+}
